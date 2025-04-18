@@ -1,3 +1,4 @@
+```bash
 #############################################
 # GitHub Repository Initialization Commands #
 #############################################
@@ -22,5 +23,10 @@ git remote add origin <URL>
 git push origin main
 
 # Step 7 (Optional): Force push to override existing history
-# Use with caution!
+# ⚠️ Use with caution!
 git push origin main --force
+```
+
+> 💡 **Tip:** Replace `<URL>` with the HTTPS or SSH URL of your GitHub repository, e.g., `https://github.com/username/repo.git`
+
+> ✅ This script sets up your project and publishes it to GitHub with a clean `main` branch.
